@@ -1,5 +1,7 @@
 from django.urls import path
 from .views import BookingView, MenuItemView, SingleBookingView, SingleMenuItemView
+#NOTE That the URL of the api-token-auth is on the urls.py on the project level
+
 
 app_name ='api'
 urlpatterns = [
