@@ -46,7 +46,8 @@ DATABASES = {
 "don't forget to change the  settings according to your local dataase setups"
 <br>
 <br>
-
+# NOTE
+The default username and password for the Django admin are provided inside the .env file for security, rather than directly in the README.
 # Apply Database Migrations
 Run the following commands to apply the database migrations:
 ```jsx
