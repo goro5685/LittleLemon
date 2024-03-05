@@ -12,9 +12,8 @@
             {% for item in menu_items %}
             <p>{{ item.title }}</p>
             <p>
-                <a href="{% url 'menu-detail' pk=item.id %}">
-                    {{ item.title }}
-                    </a>
+                <a href="{% url 'menu-detail' pk=item.id %}">{{ item.title }}</a>
+
                 <span class="menu-price">
                     ${{ item.price }}
                 </span>
