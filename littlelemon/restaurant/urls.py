@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from .views import index, about, menu, menu_item, bookings, Book
+#NOTE That the URL of the api-token-auth is on the urls.py on the project level
 
 urlpatterns = [
     path('', index , name='home'),
